@@ -1,0 +1,130 @@
+.FourthContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  width: 100%;
+  height: 45rem;
+  background: #eff0f2;
+  margin-bottom: 6rem;
+  flex-direction: column;
+  background: url("../assets//images/3a12bda0857b426574f8274540c2884f.jpeg")
+    no-repeat center cover;
+  margin-top: -9rem;
+}
+
+.innerContentFourth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22rem;
+  width: 126rem;
+  flex-direction: row;
+}
+
+.LeftFourth {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 3rem;
+  flex-direction: column;
+  width: 58.6rem;
+}
+
+.LeftFourth h2 {
+  color: rgba(255, 255, 255, 0.95);
+  font-family: Cabin;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 129%; /* 6.45rem */
+}
+.divider3 {
+  width: 5.7rem;
+  height: 0.5rem;
+  background: #002b7a;
+  border-radius: 5px;
+}
+
+.LeftFourth p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 129%; /* 2.58rem */
+}
+
+.RightFourth form {
+  display: flex;
+  flex-direction: column;
+  width: 120%;
+  gap: 1rem;
+  margin-top: 3rem;
+  margin-left: -5rem;
+}
+.RightFourth form input {
+  border-radius: 0.5rem;
+  background: #fff;
+  height: 5rem;
+  border: none;
+  color: rgba(0, 32, 91, 0.5);
+  font-family: Cabin;
+  font-size: 1.4rem;
+  font-style: normal;
+  padding: 0 0 0 1rem;
+  font-weight: 700;
+  line-height: 129%; /* 2.58rem */
+  outline: none;
+}
+
+.RightFourth form button {
+  border-radius: 0.5rem;
+  background: #00205b;
+  height: 6.1rem;
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 129%; /* 2.322rem */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.RightFourth form button:hover {
+  box-shadow: 0 0 10px 2px #3676ee;
+}
+
+@media (max-width: 768px) {
+  .innerContentFourth {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .LeftFourth {
+    flex-direction: column;
+    width: 29rem;
+    align-items: center;
+    gap: 2rem;
+  }
+  .LeftFourth h2 {
+    font-size: 2.7rem;
+    text-align: center;
+  }
+  .LeftFourth p {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .RightFourth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .RightFourth form {
+    width: 95%;
+    margin-left: 0;
+  }
+  .RightFourth form button {
+    font-size: 1.4rem;
+  }
+}

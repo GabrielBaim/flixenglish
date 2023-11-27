@@ -1,0 +1,138 @@
+.SecundContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  width: 100%;
+  height: 90rem;
+  background-color: white;
+  margin-bottom: 6rem;
+}
+
+.innerContentSecund {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+  width: 126rem;
+}
+
+.LeftSideSecund {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.RightSideSecund {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.RightSideSecund h2 {
+  color: #002b7a;
+  font-family: Cabin;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 129%; /* 5.16rem */
+}
+
+.RightSideSecund .divider {
+  width: 5.7rem;
+  height: 0.5rem;
+  border-radius: 10px;
+  background: #bf0c3d;
+}
+
+.RightSideSecund p {
+  color: #00205b;
+  font-family: Cabin;
+  font-size: 1.6rem;
+  line-height: 129%; /* 2.064rem */
+}
+
+.RightSideSecund ul {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.RightSideSecund li {
+  border-bottom: 1px solid #c6c7c6;
+  padding-bottom: 1rem;
+  color: #00205b;
+  font-family: Cabin;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 129%; /* 2.322rem */
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.RightSideSecund li:last-child {
+  border: none;
+}
+
+.RightSideSecund li img {
+  width: 20px;
+  height: 20px;
+}
+.RightSideSecund .Cta {
+  width: 41.7rem;
+  height: 4.2rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: #bf0c3d;
+
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 129%; /* 2.064rem */
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .SecundContainer {
+    flex-direction: column;
+    height: 70rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .innerContentSecund {
+    flex-direction: column;
+    width: 28rem;
+    padding: 0 10px 0 10px;
+  }
+
+  .LeftSideSecund img {
+    width: 90%;
+  }
+
+  .RightSideSecund {
+    align-items: center;
+  }
+  .RightSideSecund h2 {
+    font-size: 2.4rem; /* 5.16rem */
+    text-align: center;
+  }
+  .RightSideSecund p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .RightSideSecund li {
+    font-size: 1.4rem;
+  }
+  .RightSideSecund .Cta {
+    width: 30rem;
+    font-size: 1.4rem;
+  }
+}

@@ -1,0 +1,181 @@
+.containerHero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  width: 100%;
+  background-image: url("../assets/images/BG-INICIAL-DESKTOP1.jpg") no-repeat
+    cover;
+  background-position: center;
+  height: 80rem;
+  margin-bottom: 6rem;
+}
+.innercontent {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 3rem;
+  width: 126rem;
+}
+.heroLeftSide {
+  width: 68.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.logo {
+  width: 35%;
+  height: auto;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 2rem;
+  padding-left: 2rem;
+  border-left: 1px solid #bf0c3d;
+}
+
+.header p {
+  color: rgba(255, 255, 255, 0.95);
+  font-family: Inter;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 129%; /* 2.322rem */
+}
+
+.calendar {
+  width: 20%;
+  height: auto;
+}
+
+.headlineHero h1 {
+  color: #fff;
+  font-family: Cabin;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 129%;
+  margin-bottom: 3rem; /* 6.45rem */
+}
+
+.headlineHero .faixa {
+  border-radius: 5px;
+  padding: 0 0.5rem 0 0.5rem;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  z-index: 1;
+}
+.faixa::before {
+  content: "";
+  position: absolute;
+  top: 0;
+
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #bf0c3d;
+  z-index: -1;
+  animation: left 0.5s ease-out;
+}
+
+@keyframes left {
+  0% {
+    width: 0%;
+  }
+  100% {
+    left: 0;
+    width: 100%;
+  }
+}
+
+.headlineHero p {
+  color: rgba(255, 255, 255, 0.68);
+  font-family: Cabin;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 129%; /* 2.58rem */
+}
+
+.headlineHero form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+.headlineHero form input {
+  border-radius: 0.5rem;
+  background: #fff;
+  height: 5rem;
+  border: none;
+  color: rgba(0, 32, 91, 0.5);
+  font-family: Cabin;
+  font-size: 1.4rem;
+  font-style: normal;
+  padding: 0 0 0 1rem;
+  font-weight: 700;
+  line-height: 129%; /* 2.58rem */
+  outline: none;
+}
+
+.headlineHero form button {
+  border-radius: 0.5rem;
+  background: #bf0c3d;
+  height: 6.1rem;
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 129%; /* 2.322rem */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.headlineHero form button:hover {
+  box-shadow: 0 0 10px 2px #fd5a85;
+}
+
+@media (max-width: 768px) {
+  .containerHero {
+    height: 60rem;
+    background-position: left;
+  }
+
+  .innercontent {
+    margin-top: 5rem;
+    width: 300px;
+  }
+
+  .calendar {
+    width: 15%;
+  }
+
+  .header p {
+    font-size: 1.1rem;
+  }
+
+  .headlineHero h1 {
+    font-size: 3rem;
+  }
+  .headlineHero p {
+    font-size: 1.2rem;
+  }
+  .headlineHero form button {
+    font-size: 1.3rem;
+  }
+}

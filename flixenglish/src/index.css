@@ -1,0 +1,34 @@
+.all_page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5rem;
+}
+.Rodape {
+  width: 100%;
+  background: #002b7a;
+  height: 5rem;
+  padding: 2rem 0 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -15rem;
+}
+.Rodape p {
+  color: rgba(255, 255, 255, 0.68);
+  font-family: Cabin;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 129%; /* 2.064rem */
+}
+
+@media (max-width: 768px) {
+  .Rodape {
+    margin-top: -12rem;
+  }
+  .Rodape p {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,97 @@
+.ThirdContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  width: 100%;
+  height: 87rem;
+  background: #eff0f2;
+  flex-direction: column;
+}
+
+.innerContentThird {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  width: 126rem;
+  flex-direction: column;
+}
+
+.innerContentThird h2 {
+  color: #002b7a;
+  font-family: Cabin;
+  font-size: 4.3rem;
+  font-weight: 700;
+  line-height: 129%; /* 5.547rem */
+}
+
+.innerContentThird .divider2 {
+  width: 10.8rem;
+  height: 0.5rem;
+  border-radius: 10px;
+  background: #bf0c3d;
+}
+.aulas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 38.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+}
+
+.card img {
+  border-radius: 5px 5px 0 0;
+}
+
+.card .board {
+  background-color: #bf0c3d;
+  padding: 1rem 0 1rem 1rem;
+  width: 37.5rem;
+}
+
+.card .board p {
+  color: #fff;
+  font-family: Cabin;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 129%; /* 2.064rem */
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .ThirdContainer {
+    height: 120rem;
+  }
+
+  .innerContentThird {
+    width: 30rem;
+  }
+  .innerContentThird h2 {
+    font-size: 2.4rem;
+  }
+  .aulas {
+    flex-direction: column;
+  }
+  .card {
+    align-items: center;
+    justify-content: center;
+  }
+  .card img {
+    width: 60%;
+  }
+  .card .board {
+    width: 22.1rem;
+  }
+}
