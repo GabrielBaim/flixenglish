@@ -1,7 +1,7 @@
 import style from "./Third.module.css";
-import Aula01 from "../assets/images/AULA-01 1.png";
-import Aula02 from "../assets/images/AULA-02 1.png";
-import Aula03 from "../assets/images/AULA-03 1.png";
+import Aula01 from "../../assets/images/AULA-01 1.png";
+import Aula02 from "../../assets/images/AULA-02 1.png";
+import Aula03 from "../../assets/images/AULA-03 1.png";
 import { motion } from "framer-motion";
 
 export function ThirdSection() {

@@ -1,9 +1,9 @@
 import "./index.css";
-import { Hero } from "./components/section01";
-import { SecundSection } from "./components/section02";
-import { ThirdSection } from "./components/section03";
-import { Footer } from "./components/sectionfooter";
-import { FourthSection } from "./components/section04";
+import { Hero } from "./components/Section01/section01";
+import { SecundSection } from "./components/Section02/section02";
+import { ThirdSection } from "./components/Section03/section03";
+import { Footer } from "./components/Footer/sectionfooter";
+import { FourthSection } from "./components/Section04/section04";
 
 export function App() {
   return (

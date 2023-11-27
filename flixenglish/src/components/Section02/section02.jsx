@@ -1,6 +1,6 @@
 import style from "./Secund.module.css";
-import LeftImage from "../assets/images/PRA-QUEM-E 1.png";
-import Tag from "../assets/images/tag.png";
+import LeftImage from "../../assets/images/PRA-QUEM-E 1.png";
+import Tag from "../../assets/images/tag.png";
 import { motion } from "framer-motion";
 export function SecundSection() {
   return (

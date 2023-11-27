@@ -1,5 +1,5 @@
 import style from "./Fourth.module.css";
-import BgCta from "../assets/images/3a12bda0857b426574f8274540c2884f.jpeg";
+import BgCta from "../../assets/images/3a12bda0857b426574f8274540c2884f.jpeg";
 import { motion } from "framer-motion";
 export function FourthSection() {
   const styles = {

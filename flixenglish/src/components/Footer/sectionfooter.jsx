@@ -1,5 +1,5 @@
 import style from "./Footer.module.css";
-import Specialist from "../assets/images/QUEM-E-ESPECIALISTA 1.png";
+import Specialist from "../../assets/images/QUEM-E-ESPECIALISTA 1.png";
 import { motion } from "framer-motion";
 
 export function Footer() {

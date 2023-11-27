@@ -1,7 +1,7 @@
-import style from "../components/Hero.module.css";
-import Logo from "../assets/images/LOGO-FLIXENGLISH 1.png";
-import Calendar from "../assets/images/calendar.svg";
-import Background from "../assets/images/BG-INICIAL-DESKTOP1.jpg";
+import style from "./Hero.module.css";
+import Logo from "../../assets/images/LOGO-FLIXENGLISH 1.png";
+import Calendar from "../../assets/images/calendar.svg";
+import Background from "../../assets/images/BG-INICIAL-DESKTOP1.jpg";
 
 export function Hero() {
   const estilo = {
